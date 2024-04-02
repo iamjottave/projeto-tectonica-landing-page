@@ -1,0 +1,174 @@
+@media (max-width: 1024px) {
+  .rodape .navegacao .logo {
+    margin: 0;
+    width: 400px;
+    padding: 100px;
+  }
+
+  .conteudo-principal .paineis .texto {
+    margin: 0 auto;
+    font-size: 13px;
+    padding: 0;
+  }
+}
+
+@media (max-width: 830px) {
+  .conteudo-principal .quem-somos .imagem {
+    display: none;
+  }
+
+  .conteudo-principal .quem-somos .imagem2 {
+    display: none;
+  }
+
+  .conteudo-principal .quem-somos .imagem3 {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .cabecalho {
+    justify-content: center;
+  }
+
+  .cabecalho .logo {
+    margin-bottom: 10px;
+    
+  }
+
+  .cabecalho .navegacao .menu  {
+    font-size: 18px;
+  }
+  .rodape .navegacao .logo {
+    width: 400px;
+    padding: 75px;
+  }
+
+  .conteudo-principal .paineis .texto {
+    display: none;
+
+    
+}
+
+.conteudo-principal .trabalhe-conosco .imagem {
+  display: none;
+}
+.conteudo-principal .trabalhe-conosco .sub-titulo {
+  margin-top: 20px;
+}
+
+
+}
+@media (max-width: 450px) {
+  .cabecalho .navegacao .menu {
+    font-size: 13px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+  
+  }
+
+  .cabecalho .logo .imagem {
+    margin-left: 80px;
+  }
+
+  .rodape .navegacao .logo {
+    width: 400px;
+    padding: 75px;
+  }
+
+  .rodape .navegacao .redes-sociais a {
+    width: 60px;
+  }
+
+  .conteudo-principal .paineis {
+    font-size: 12px;
+  }
+
+  .conteudo-principal .paineis .texto {
+    display: none;
+    font-size: 13px;
+    position: absolute;
+    right: 50px;
+  }
+  .conteudo-principal .paineis .seta {
+    max-width: 10px;
+  }
+
+  .conteudo-principal .paineis .seta .btn-voltar {
+   
+    position: absolute;
+  }
+  .conteudo-principal .conteudo .informacoes {
+    min-height: 100%;
+  }
+
+  .conteudo-principal .quem-somos .informacoes .titulo {
+    margin: 0;
+    padding: 20px;
+    width: 40;
+  }
+
+  .conteudo-principal .quem-somos .informacoes .texto {
+    font-weight: bold;
+  }
+
+  .conteudo-principal .quem-somos .informacoes .listas li {
+    line-height: 20px;
+  }
+
+  .conteudo-principal .quem-somos .imagem {
+    display: none;
+  }
+
+  .conteudo-principal .quem-somos .imagem2 {
+    display: none;
+  }
+
+  .conteudo-principal .quem-somos .imagem3 {
+    display: none;
+  }
+  .conteudo-principal .trabalhe-conosco .descricao {
+    max-height: 200px;
+    min-width: 350px;
+    
+    line-height: 15px;
+  
+  }
+}
+  @media (max-width: 380px) {
+
+
+    .cabecalho .navegacao .menu ul {
+      font-size: 20px;
+    }
+    .conteudo-principal .paineis .texto {
+      font-size: 13px;
+      position: absolute;
+      right: 30px;
+    }
+    .conteudo-principal .paineis .seta {
+      max-width: 10px;
+    }
+
+    .conteudo-principal .paineis .seta .btn-voltar {
+     
+      position: absolute;
+    }
+    .conteudo-principal .conteudo .informacoes {
+      min-height: 100%;
+    }
+
+    .conteudo-principal .trabalhe-conosco .descricao {
+      max-height: 200px;
+      min-width: 300px;
+      line-height: 15px;
+    
+    }
+    .cabecalho .navegacao .menu {
+        font-size: 10px;
+        margin-bottom: 10px;
+        margin-left: 5px;
+      
+      }
+  }
+

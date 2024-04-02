@@ -1,0 +1,278 @@
+body {
+  background-color: #ffb900;
+  font-family: bree serif, sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* header
+*/
+.cabecalho .logo .imagem {
+  width: 180px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: px 0px;
+  max-width: 1150px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.cabecalho .logo {
+  display: flex;
+  align-items: center;
+}
+
+.cabecalho .menu {
+  display: flex;
+  gap: 20px;
+}
+
+.cabecalho .navegacao .menu .item a {
+  padding: 5px;
+  border-radius: 10px;
+  color: black;
+  transition: 0.4s ease-in-out;
+}
+
+.cabecalho .navegacao .menu .item a:hover {
+  background-color: black;
+  color: #f9cb2b;
+}
+
+/* Main */
+
+.conteudo-principal .paineis {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  height: 400px;
+  position: relative;
+  font-size: 14px;
+}
+
+.conteudo-principal .paineis .texto {
+  width: 40%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  margin-left: 60px;
+  min-width: 290px;
+  padding: 10px;
+}
+
+.conteudo-principal .paineis .imagem-painel {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  filter: brightness(60%);
+  opacity: 0;
+  transition: 0.3 ease-in-out;
+}
+
+.conteudo-principal .paineis .projeto1 {
+  background-image: url(../imagens/projeto\ 2.png);
+}
+
+.conteudo-principal .paineis .projeto2 {
+  background-image: url(../imagens/projeto\ 3.png);
+}
+
+.conteudo-principal .paineis .projeto3 {
+  background-image: url(../imagens/projeto\ 4.png);
+}
+.conteudo-principal .paineis .projeto4 {
+  background-image: url(../imagens/projeto\ 5.png);
+}
+
+.conteudo-principal .paineis .imagem-painel.mostrar {
+  opacity: 1;
+}
+
+.conteudo-principal .paineis .titulo {
+  color: #f9cb2b;
+  text-transform: uppercase;
+  font-size: calc(1em + 1vw);
+  font-family: league spartan, sans Arial, Helvetica, sans-serif;
+}
+
+.conteudo-principal .paineis .seta {
+  background-image: url("../imagens/seta.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 50px;
+  position: absolute;
+  text-indent: 100%;
+  overflow: hidden;
+}
+
+.conteudo-principal .paineis .seta.btn-voltar {
+  left: 20px;
+  transform: rotate(180deg);
+}
+
+.conteudo-principal .paineis .seta.btn-avancar {
+  right: 20px;
+}
+
+/* .conteudo-principal .quem-somos .conteudo .informacoes .texto .titulo . */
+
+/*
+.conteudo-principal .quem-somos {
+  
+    margin: 40px;
+
+}
+
+.conteudo-principal .quem-somos .informacoes{
+   
+    margin: 20px;
+}
+*/
+.conteudo-principal .quem-somos .informacoes .titulo {
+  font-size: calc(1em + 1vw);
+  display: flex;
+  margin-top: 50px;
+  font-size: 35px;
+  margin-left: 10px;
+}
+
+.conteudo-principal .quem-somos .informacoes .texto {
+  max-width: 1170px;
+  padding: 1px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+}
+.conteudo-principal .quem-somos .informacoes .listas li {
+  list-style: disc;
+  margin: 30px;
+}
+
+.conteudo-principal .quem-somos .imagem {
+  float: inline-end;
+  width: 25%;
+  margin-right: 80px;
+  margin-top: 20px;
+}
+
+.conteudo-principal .quem-somos .imagem2 {
+  float: right;
+  width: 25%;
+  margin-top: 30px;
+  margin-left: 200px;
+}
+
+.conteudo-principal .quem-somos .imagem3 {
+  float: right;
+  width: 30%;
+  margin-bottom: 10px;
+  margin-right: 40px;
+  
+
+  
+}
+
+.rodape {
+  padding: 80px 0 20px 0;
+  background-color: black;
+  
+}
+
+.rodape .navegacao {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.rodape .redes-sociais {
+  display: flex;
+}
+
+.rodape .redes-sociais a {
+  display: flex;
+  justify-content: center;
+  margin: 0px 10px;
+  font-size: 30px;
+  color: #f9cb2b;
+  border: 3px solid #f9cb2b;
+  border-radius: 50%;
+  padding: 15px;
+  width: 65px;
+  transition: 0.3s ease-in-out;
+}
+
+.rodape .redes-sociais a:hover {
+  background-color: #f9cb2b;
+}
+
+.rodape .navegacao .logo .imagem {
+  width: 400px;
+}
+
+.rodape .copyright {
+  margin-top: 70px;
+  text-align: center;
+  color: #f9cb2b;
+}
+
+.conteudo-principal .trabalhe-conosco .sub-titulo {
+  margin-left: 20px;
+}
+
+.conteudo-principal .trabalhe-conosco .descricao {
+  line-height: 25px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 50%;
+  margin-left: 20px;
+}
+
+.conteudo-principal .trabalhe-conosco .imagem {
+  float: right;
+  margin-right: 50px;
+}
+
+.conteudo-principal .trabalhe-conosco .anexo {
+  margin-left: 20px;
+  padding: 20px;
+}
+
+.conteudo-principal .trabalhe-conosco .anexo .documento {
+  margin-left: 30px;
+  margin-bottom: 25px;
+  min-width: 100px;
+  height: 30px;
+}
+
+.conteudo-principal .trabalhe-conosco .anexo .button {
+  margin-left: 30px;
+  margin-bottom: 25px;
+  min-width: 100px;
+  height: 30px;
+}
+
+.conteudo-principal .trabalhe-conosco .email {
+  text-align: center;
+  margin-bottom: 30px;
+}
